@@ -36,7 +36,7 @@
   h2 {
     font-size: 3rem;
   }
-  
+
   .about img {
     height: 30rem;
   }
@@ -49,4 +49,17 @@
 
 /* Breakpoint for small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .about img {
+    height: 20rem;
+  }
+
+  .long-text {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 } /* End @media only screen and (max-width: 480px) */
