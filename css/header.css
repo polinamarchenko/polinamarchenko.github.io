@@ -1,0 +1,109 @@
+/* ---------------------------------------------------------
+  Header Stylesheet
+   ---------------------------------------------------------*/
+
+@media screen {
+
+  header {
+    padding: 40px 20px 80px 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/polina3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+    background-attachment: fixed;
+  }
+
+  .hero-text-box {
+  position: absolute;
+  width: 70rem;
+  top: 50%;
+  left:50%;
+  transform: translate(-30%, -10%);
+  }
+
+  .title-text-yellow {
+  color: #0d0c00;
+  background-color: #ffe000;
+  font-weight: 700;
+  border: 0.1rem solid #ffe000;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  letter-spacing: 0.05rem;
+  }
+
+  .title-text-black {
+  color: white;
+  background-color: rgba(13, 12, 0, 0.3);
+  border: 0.1rem solid #ffe000;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+
+}/* End @media screen */
+
+/* Breakpoint for big tablets to desktop: from 1024 to 1200px */
+@media only screen and (max-width: 1200px) {
+} /* End @media only screen and (max-width: 1200px) */
+
+/* Breakpoint for small tablets to big tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+
+  h1 {
+    font-size: 6rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+} /* End @media only screen and (max-width: 1023px) */
+
+/* Breakpoint for small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+
+  .main-nav {
+    display: none;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .mobile-nav-icon i{
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-nav {
+    float: left;
+  }
+
+  .main-nav li {
+    display: block;
+    padding-bottom: 0.05rem;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+  }
+
+  .sticky .logo-small {
+      height: 3.5rem;
+      width: auto;
+      float: left;
+      margin: 1.8rem 2rem;
+      display: block;
+  }
+
+  .sticky .main-nav li {
+    padding: 0;
+  }
+
+} /* End @media only screen and (max-width: 767px) */
+
+/* Breakpoint for small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+} /* End @media only screen and (max-width: 480px) */

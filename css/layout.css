@@ -1,0 +1,294 @@
+@media screen {
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+    body {
+      font-family: 'Lato', 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 62.5%; /* 62.5% of 16px = 10px */
+      color: #38464D;
+      text-rendering: optimizeLegibility;
+    }
+
+  .clearfix {zoom: 1}
+    .clearfix:after {
+        content: '.';
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+
+
+  /* REUSABLE COMPONENTS */
+  .row {
+    max-width: 114rem;
+    margin: 0 auto 1rem auto;
+  }
+
+  section {
+  padding: 2rem 0 2rem 0;
+  font-size: 2rem;
+  background-color: #fff;
+  }
+
+  .box { padding: 1%; }
+
+  /* ----- HEADINGS -----*/
+  h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #ffe000;
+    font-size: 7rem;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.1rem;
+  }
+
+  h2 {
+    margin-bottom: 2.0rem;
+    margin-top: 2.0rem;
+    font-size: 3.6rem;
+    word-spacing: 0.2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+
+  h3 {
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+  }
+
+  h3.header {
+    margin: 4rem auto 3rem auto;
+  }
+
+  h3.white {
+    color: #fff;
+  }
+
+  h3.yellow {
+    color: #ffe000;
+  }
+
+  h3.center { text-align: center; }
+
+  /* ----- PARAGRAPHS -----*/
+  .long-text {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 3.0rem;
+    font-size: 2.0rem;
+  }
+
+  /* ----- ICONS -----*/
+  .tools a img {
+    height: 10.0rem;
+    display: inline-block;
+    margin-bottom: 1.0rem;
+    padding: 2.0rem 2.5rem;
+  }
+
+
+  /* ----- LINKS -----*/
+  a:link,
+  a:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 0.1rem;
+  }
+
+  a:hover,
+  a:active {
+    border-bottom: 0.1rem solid white;
+  }
+
+/*Main Navi*/
+.main-nav {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+  background-color: grey;
+  overflow: hidden;
+  background-color: transparent;
+  padding: 1.6rem 1.6rem;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 1.2rem 1.6rem;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  border: 0.2rem solid rgba(0,0,0,0);
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border: 0.2rem solid #ffe000;
+    padding: 1rem;
+}
+
+.logo-small {
+  display: none;
+}
+
+/*Mobile Navi*/
+
+.mobile-nav-icon {
+  float: right;
+  cursor: pointer;
+  display: none;
+  margin-top: 2rem;
+}
+
+.mobile-nav-icon i {
+  font-size: 3rem;
+  color: #fff;
+}
+
+/*Sticky Navi*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.95);
+  z-index: 9999;
+}
+.sticky .row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  border: 0.2rem solid rgba(0,0,0,0);
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    border: 0.2rem solid #ffe000;
+    padding: 1rem;
+}
+
+.sticky .logo-small {
+    height: 4rem;
+    width: auto;
+    float: left;
+    margin-top: 1.8rem;
+    display: block;
+}
+
+.about {
+  padding:40px 40px;
+  font-size: 20px;
+}
+
+.section-projects {
+  background-image: url(../img/kptncookapp.jpg);
+  background-size: cover;
+  background-position: center;
+  /*background-attachment: fixed;*/
+  height: 100vh;
+  color: #fff;
+}
+
+.tools ul {
+  text-align: center;
+}
+
+footer {
+  background-color: gray;
+  clear: both;
+}
+
+/* ----- BUTTONS -----*/
+  .btn:link,
+  .btn:visited,
+  input[type=submit] {
+    display: inline-block;
+    padding: 1.5rem 6.0rem;
+    font-weight: 300;
+    font-size: 2.0rem;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s border 0.2s;
+    margin-top: 2rem;
+  }
+
+  .btn-full:link,
+  .btn-full:visited,
+  input[type=submit] {
+    background-color: rgba(255,224,0, 0.3);
+    color: white;
+    margin-right: 1.5rem;
+    border-radius: 2rem;
+    border: 0.1rem solid rgba(255,224,0, 0.3);
+    letter-spacing: 0.1rem;
+  }
+
+  .btn-full:hover,
+  .btn-full:active {
+    background-color: #ffe000;
+    color: #0d0c00;
+    border: 0.1rem solid #ffe000;
+    letter-spacing: 0.1rem;
+  }
+
+  .btn-ghost:link,
+  .btn-ghost:visited {
+    border: 0.1rem solid #ffe000;
+    color: #ffe000;
+    border-radius: 2rem;
+  }
+
+
+
+  .btn-ghost:hover,
+  .btn-ghost:active {
+    background-color: #ffe000;
+    border: 0.1rem solid #ffe000;
+    color: #0d0c00;
+  }
+
+
+  /* Breakpoint for big tablets to desktop: from 1024 to 1200px */
+  @media only screen and (max-width: 1200px) {
+  } /* End @media only screen and (max-width: 1200px) */
+
+  /* Breakpoint for small tablets to big tablets: from 768 to 1023px */
+  @media only screen and (max-width: 1023px) {
+
+    .col {
+      width: 100%;
+      margin: 0 0 4% 0;
+    }
+  } /* End @media only screen and (max-width: 1023px) */
+
+  /* Breakpoint for small phones to small tablets: from 481 to 767px */
+  @media only screen and (max-width: 767px) {
+
+  } /* End @media only screen and (max-width: 767px) */
+
+  /* Breakpoint for small phones: from 0 to 480px */
+  @media only screen and (max-width: 480px) {
+  } /* End @media only screen and (max-width: 480px) */

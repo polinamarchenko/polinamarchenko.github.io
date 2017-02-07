@@ -1,0 +1,158 @@
+/* ---------------------------------------------------------
+  Projects Stylesheet
+   ---------------------------------------------------------*/
+
+@media screen {
+  .projects {
+    padding-bottom: 0;
+  }
+  .kptncook,
+  .gymhit,
+  .mirapodo {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 3rem 0;
+    margin-top: 0.2rem;
+    color: #fff;
+    height: 70rem;
+  }
+
+  .kptncook {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/veggies.jpg);
+  }
+
+  .gymhit {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/fitness2.jpeg);
+    height: 85rem;
+  }
+
+  .mirapodo {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/shoes3.jpeg);
+  }
+
+  .how-to {
+    margin-top: 3rem;
+  }
+
+  .how-to:first-child {
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffe000;
+    letter-spacing: 0.5rem;
+  }
+
+  .kptncook-screen {
+    width: 45%;
+    margin-top: 7.5rem;
+  }
+
+  .gymhit-screen,
+  .mirapodo-screen {
+    height: 45rem;
+    width: auto;
+    border: 1px solid #dedbdb;
+    box-shadow: 0 0.6rem 1.0rem 0 rgba(0, 0, 0, 0.2);
+    margin-top: 7.5rem;
+  }
+
+  .projects p {
+    font-size: 2rem;
+    line-height: 155%;
+  }
+
+  .app-store {
+    height: 4.5rem;
+    margin-top: 3rem;
+    border-bottom: 0;
+  }
+
+  .projects a {
+    border-bottom: 0;
+  }
+
+  .year {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    word-spacing: 1.5rem;
+    display: inline-block;
+    padding: 1rem;
+    border: 0.2rem solid #ffe000;
+  }
+
+  .js--wp-gymhit {
+    opacity: 0;
+  }
+  .js--wp-gymhit.animated {
+    opacity: 1;
+  }
+
+  .js--wp-kptncook {
+    opacity: 0;
+  }
+  .js--wp-kptncook.animated {
+    opacity: 1;
+  }
+
+  .js--wp-mirapodo {
+    opacity: 0;
+  }
+  .js--wp-mirapodo.animated {
+    opacity: 1;
+  }
+
+  }  /* End @media screen */
+
+
+
+
+/* Breakpoint for big tablets to desktop: from 1024 to 1200px */
+@media only screen and (max-width: 1200px) {
+} /* End @media only screen and (max-width: 1200px) */
+
+/* Breakpoint for small tablets to big tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+
+} /* End @media only screen and (max-width: 1023px) */
+
+/* Breakpoint for small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3.white,
+  h3.yellow {
+    font-size: 1.8rem;
+    display: block;
+  }
+
+  h3.yellow {
+    margin: 1.5rem 1.8rem 1rem 1rem ;
+  }
+
+  h3.white {
+    margin: 0 1.8rem;
+  }
+
+  .year {
+    margin: 0rem auto 2rem auto;
+  }
+
+  .projects p {
+    font-size: 1.8rem;
+    line-height: 145%;
+    margin: 0 1.8rem 0 1rem;
+  }
+
+} /* End @media only screen and (max-width: 767px) */
+
+/* Breakpoint for small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+} /* End @media only screen and (max-width: 480px) */
