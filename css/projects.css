@@ -114,6 +114,18 @@
 
 /* Breakpoint for big tablets to desktop: from 1024 to 1200px */
 @media only screen and (max-width: 1200px) {
+
+  .mirapodo-screen,
+  .gymhit-screen {
+    width: 90%;
+    height: auto;
+  }
+
+  .projects p {
+    font-size: 1.8rem;
+    line-height: 140%;
+  }
+
 } /* End @media only screen and (max-width: 1200px) */
 
 /* Breakpoint for small tablets to big tablets: from 768 to 1023px */
