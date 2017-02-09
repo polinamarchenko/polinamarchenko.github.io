@@ -38,6 +38,18 @@
 
 /* Breakpoint for small phones to small tablets: from 481 to 767px */
 @media only screen and (max-width: 767px) {
+
+  .section-books p {
+    line-height: 140%;
+    font-size: 1.6rem;
+    width: 75%;
+    margin: 0 auto 2rem auto;
+  }
+
+  .bookcover a img {
+    width: auto;
+    height: 22rem;
+  }
 } /* End @media only screen and (max-width: 767px) */
 
 /* Breakpoint for small phones: from 0 to 480px */
@@ -47,7 +59,6 @@
     line-height: 130%;
     font-size: 1.5rem;
     width: 80%;
-    margin: 0 auto 2rem auto;
   }
 
   .bookcover a img {

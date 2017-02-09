@@ -3,9 +3,11 @@
    ---------------------------------------------------------*/
 
 @media screen {
+
   .projects {
     padding-bottom: 0;
   }
+
   .kptncook,
   .gymhit,
   .mirapodo {
@@ -39,13 +41,6 @@
     text-align: center;
   }
 
-  h3 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #ffe000;
-    letter-spacing: 0.5rem;
-  }
-
   .kptncook-screen {
     width: 45%;
     margin-top: 7.5rem;
@@ -53,8 +48,8 @@
 
   .gymhit-screen,
   .mirapodo-screen {
-    height: 36rem;
-    width: auto;
+    height: auto;
+    width: 100%;
     border: 1px solid #dedbdb;
     box-shadow: 0 0.6rem 1.0rem 0 rgba(0, 0, 0, 0.2);
     margin-top: 7.5rem;
@@ -75,7 +70,7 @@
     border-bottom: 0;
   }
 
-  .year {
+  .yellow-box {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 700;
@@ -89,6 +84,7 @@
   .js--wp-gymhit {
     opacity: 0;
   }
+
   .js--wp-gymhit.animated {
     opacity: 1;
   }
@@ -96,6 +92,7 @@
   .js--wp-kptncook {
     opacity: 0;
   }
+
   .js--wp-kptncook.animated {
     opacity: 1;
   }
@@ -135,8 +132,11 @@
 
 /* Breakpoint for small phones to small tablets: from 481 to 767px */
 @media only screen and (max-width: 767px) {
-  h2 {
-    font-size: 3rem;
+
+  .kptncook,
+  .gymhit,
+  .mirapodo {
+    height: 100%;
   }
 
   h3.white,
@@ -146,11 +146,11 @@
   }
 
   h3.yellow {
-    margin: 1.5rem 1.8rem 1rem 1rem ;
+    margin: 1.5rem 1.5rem 1rem 1.5rem ;
   }
 
   h3.white {
-    margin: 0 1.8rem;
+    margin: 0 1.8rem 1.8rem 1.8rem;
   }
 
   .year {
@@ -160,11 +160,78 @@
   .projects p {
     font-size: 1.8rem;
     line-height: 145%;
-    margin: 0 1.8rem 0 1rem;
+    margin: 0 1.5rem;
   }
+
+  .how-to {
+    margin-top: 0;
+  }
+
+  .kptncook-screen,
+  .gymhit-screen,
+  .mirapodo-screen {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .kptncook-screen {
+    width: 25%;
+    margin-top: 0;
+  }
+
+  .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pic {
+      order: 1;
+    }
+
+    .text {
+      order: -1;
+    }
+
 
 } /* End @media only screen and (max-width: 767px) */
 
 /* Breakpoint for small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+
+  .projects p {
+    font-size: 1.5rem;
+    line-height: 135%;
+  }
+
+  h3.white,
+  h3.yellow {
+    font-size: 1.5rem;
+  }
+
+  .projects .btn-full:link,
+  .projects .btn-full:visited,
+  input[type=submit] {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .app-store {
+    margin: 3rem 1rem 0 1rem;
+  }
+
+  .js--wp-gymhit.animated {
+    display: none;
+  }
+
+  .js--wp-kptncook.animated {
+    display: none;
+  }
+
+  .js--wp-mirapodo.animated {
+    display: none;
+  }
+
+
 } /* End @media only screen and (max-width: 480px) */

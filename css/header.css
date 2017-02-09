@@ -114,13 +114,18 @@
   left:50%;
   transform: translate(-30%, -20%);
   }
-
+  .title-text-black,
   .title-text-yellow {
   font-size: 80%;
   }
 
-  .title-text-black {
-  font-size: 80%;
+  header .btn:link,
+  header .btn:visited {
+    float: left;
+    clear: left;
+    padding: 1.5rem 14.0rem;
+    font-size: 2.0rem;
   }
+
 
 } /* End @media only screen and (max-width: 480px) */

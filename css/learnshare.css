@@ -22,6 +22,18 @@
     text-align: center;
     margin-top: 2rem;
   }
+
+  .yellow-box-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1rem;
+    display: inline-block;
+    border: 0.2rem solid #ffe000;
+    margin: 0 25%;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+
 }  /* End @media screen */
 
 /* Breakpoint for big tablets to desktop: from 1024 to 1200px */
