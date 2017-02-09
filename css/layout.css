@@ -83,7 +83,13 @@
   h3.center { text-align: center; }
 
   /* ----- PARAGRAPHS -----*/
-
+  .long-text {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 3.0rem;
+    font-size: 2.0rem;
+  }
 
   /* ----- ICONS -----*/
   .tools a img {
@@ -255,8 +261,6 @@ footer {
     border-radius: 2rem;
   }
 
-
-
   .btn-ghost:hover,
   .btn-ghost:active {
     background-color: #ffe000;
@@ -285,4 +289,15 @@ footer {
 
   /* Breakpoint for small phones: from 0 to 480px */
   @media only screen and (max-width: 480px) {
+    h3.header {
+      font-size: 1.8rem;
+    }
+
+    .btn:link,
+    .btn:visited {
+      float: left;
+      clear: left;
+      padding: 1.5rem 14.0rem;
+      font-size: 2.0rem;
+    }
   } /* End @media only screen and (max-width: 480px) */

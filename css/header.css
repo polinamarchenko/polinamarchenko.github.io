@@ -66,11 +66,12 @@
   .main-nav {
     display: none;
   }
+
   .mobile-nav-icon {
     display: inline-block;
   }
 
-  .mobile-nav-icon i{
+  .mobile-nav-icon i {
     margin-right: 2rem;
     margin-bottom: 2rem;
   }
@@ -106,4 +107,20 @@
 
 /* Breakpoint for small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+  .hero-text-box {
+  position: absolute;
+  width: 60rem;
+  top: 50%;
+  left:50%;
+  transform: translate(-30%, -20%);
+  }
+
+  .title-text-yellow {
+  font-size: 80%;
+  }
+
+  .title-text-black {
+  font-size: 80%;
+  }
+
 } /* End @media only screen and (max-width: 480px) */
