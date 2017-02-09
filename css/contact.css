@@ -91,4 +91,10 @@
 
 /* Breakpoint for small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+  .small,
+  .form-label {
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+  }
+
 } /* End @media only screen and (max-width: 480px) */
