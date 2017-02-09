@@ -1,6 +1,10 @@
 /* ---------------------------------------------------------
   Central Stylesheet
    ---------------------------------------------------------*/
+   /* ----- VENDORS -----*/
+@import url('./grid.css');
+@import url('./vendors/css/animate.css');
+
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
@@ -10,7 +14,6 @@
 @import url('./books.css');
 @import url('./tools.css');
 @import url('./projects.css');
-@import url('./grid.css');
 @import url('./learnshare.css');
 @import url('./footer.css');
 @import url('./contact.css');

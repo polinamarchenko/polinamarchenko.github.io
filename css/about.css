@@ -5,11 +5,18 @@
   }
 
   .about img {
-    height: 35rem;
+    height: auto;
+    width: 90%;
     border-radius: 50%;
     float: left;
   }
+
   .long-text {
+    line-height: 145%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3rem;
+    font-size: 2rem;
     color: #0d0c00;
   }
   .js--about-input {
@@ -27,6 +34,10 @@
 /* Breakpoint for small tablets to big tablets: from 768 to 1023px */
 @media only screen and (max-width: 1023px) {
 
+  .about img {
+    height: auto;
+    width: 100%;
+  }
 
 } /* End @media only screen and (max-width: 1023px) */
 
@@ -38,11 +49,11 @@
   }
 
   .about img {
-    height: 30rem;
-  }
-
-  .long-text {
-    margin-top: 3rem;
+    height: auto;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    float: none;
   }
 
 } /* End @media only screen and (max-width: 767px) */
@@ -55,11 +66,13 @@
   }
 
   .about img {
-    height: 20rem;
+    height: auto;
+    width: 70%;
   }
-
   .long-text {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    line-height: 125%;
+    font-size: 90%;
+    width: 90%;
+    margin: 0 auto 2rem auto;
   }
 } /* End @media only screen and (max-width: 480px) */
