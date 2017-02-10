@@ -36,12 +36,15 @@ $(document).ready(function() {
 
   /*Scrolling Animation*/
 
+
+
   $('.js--about-input').waypoint(function(direction) {
-      $('.js--about-input').addClass('animated fadeInRight');
+  $('.js--about-input').addClass('animated fadeIn');
   }, {
     offset:'50%'
   }
   );
+
 
 
   $('.js--wp-tools').waypoint(function(direction) {
