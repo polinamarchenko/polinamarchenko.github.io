@@ -35,6 +35,15 @@ $(document).ready(function() {
 });
 
   /*Scrolling Animation*/
+
+  $('.js--about-input').waypoint(function(direction) {
+      $('.js--about-input').addClass('animated fadeInRight');
+  }, {
+    offset:'50%'
+  }
+  );
+
+/*
   $('.js--wp-tools').waypoint(function(direction) {
       $('.js--wp-tools').addClass('animated fadeInDown');
   }, {
@@ -73,13 +82,6 @@ $('.js--wp-mirapodo').waypoint(function(direction) {
     offset:'50%'
 
   }
-  );
-
-  $('.js--about-input').waypoint(function(direction) {
-      $('.js--about-input').addClass('animated fadeInRight');
-  }, {
-    offset:'70%'
-  }
-  );
+);*/
 
 })

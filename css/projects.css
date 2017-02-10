@@ -81,7 +81,7 @@
     border: 0.2rem solid #ffe000;
   }
 
-  .js--wp-gymhit {
+  /*.js--wp-gymhit {
     opacity: 0;
   }
 
@@ -102,7 +102,7 @@
   }
   .js--wp-mirapodo.animated {
     opacity: 1;
-  }
+  }*/
 
   }  /* End @media screen */
 
@@ -209,8 +209,7 @@
   }
 
   .projects .btn-full:link,
-  .projects .btn-full:visited,
-  input[type=submit] {
+  .projects .btn-full:visited {
     display: block;
     width: 80%;
     margin: 2rem auto;
@@ -219,18 +218,6 @@
 
   .app-store {
     margin: 3rem 1rem 0 1rem;
-  }
-
-  .js--wp-gymhit.animated {
-    display: none;
-  }
-
-  .js--wp-kptncook.animated {
-    display: none;
-  }
-
-  .js--wp-mirapodo.animated {
-    display: none;
   }
 
 
