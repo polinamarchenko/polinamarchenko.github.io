@@ -98,3 +98,19 @@
   }
 
 } /* End @media only screen and (max-width: 480px) */
+@media only screen and (max-width: 320px) {
+
+  .info {
+    padding: 0;
+    width: 90%;
+  }
+
+  .small {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+  }
+
+  input[type=submit] {
+    margin-left: 0;
+  }
+} /* End @media only screen and (max-width: 320px) */
