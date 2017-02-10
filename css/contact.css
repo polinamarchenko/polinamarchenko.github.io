@@ -89,7 +89,7 @@
 @media only screen and (max-width: 767px) {
 } /* End @media only screen and (max-width: 767px) */
 
-/* Breakpoint for small phones: from 0 to 480px */
+/* Breakpoint for small phones: from 321px to 480px */
 @media only screen and (max-width: 480px) {
   .small,
   .form-label {

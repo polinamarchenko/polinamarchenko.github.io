@@ -17,10 +17,11 @@
 
   .hero-text-box {
     position: absolute;
-    width: 114.0rem;
+    width: 65.0rem;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    padding: 2% 4% 0 4%;
   }
 
   .title-text-yellow {
@@ -105,9 +106,9 @@
 @media only screen and (max-width: 480px) {
 
   .hero-text-box {
-    width: 100%;
-    padding: 0 2%;
-  }
+      width: 90%;
+      padding: 2% 4% 0 4%;
+    }
 
   .title-text-black,
   .title-text-yellow {
@@ -119,7 +120,7 @@
     float: left;
     clear: left;
     text-align: center;
-    width: 90%;
+    width: 100%;
   }
 
 
@@ -129,11 +130,9 @@
 @media only screen and (max-width: 320px) {
 
   .hero-text-box {
-      padding: 0 4% 0 10%;
-      top: 60%;
-      left:50%;
-      transform: translate(-50%, -50%);
-    }
+    width: 100%;
+    padding-left: 6%;
+  }
 
   .title-text-black,
   .title-text-yellow {
@@ -142,6 +141,11 @@
 
   h3.header {
     font-size: 1.1rem;
+  }
+
+  header .btn:link,
+  header .btn:visited {
+    width: 90%;
   }
 
 
