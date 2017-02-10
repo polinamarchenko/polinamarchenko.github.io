@@ -81,7 +81,7 @@
     border: 0.2rem solid #ffe000;
   }
 
-  /*.js--wp-gymhit {
+  .js--wp-gymhit {
     opacity: 0;
   }
 
@@ -102,7 +102,7 @@
   }
   .js--wp-mirapodo.animated {
     opacity: 1;
-  }*/
+  }
 
   }  /* End @media screen */
 

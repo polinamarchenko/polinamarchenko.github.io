@@ -43,7 +43,7 @@ $(document).ready(function() {
   }
   );
 
-/*
+
   $('.js--wp-tools').waypoint(function(direction) {
       $('.js--wp-tools').addClass('animated fadeInDown');
   }, {
@@ -82,6 +82,6 @@ $('.js--wp-mirapodo').waypoint(function(direction) {
     offset:'50%'
 
   }
-);*/
+);
 
 })

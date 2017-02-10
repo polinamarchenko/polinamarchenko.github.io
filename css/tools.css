@@ -20,13 +20,13 @@
     margin-right: 4rem;
   }
 
-  /*.js--wp-tools {
+  .js--wp-tools {
     opacity: 0;
   }
 
   .js--wp-tools.animated {
     opacity: 1;
-  }*/
+  }
 
 
 }  /* End @media screen */

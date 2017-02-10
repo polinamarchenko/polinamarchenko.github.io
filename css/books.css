@@ -20,12 +20,12 @@
     padding: 1.0rem;
   }
 
-/*  .js--wp-books {
+  .js--wp-books {
     opacity: 0;
   }
   .js--wp-books.animated {
     opacity: 1;
-  } */
+  } 
 }  /* End @media screen */
 
 /* Breakpoint for big tablets to desktop: from 1024 to 1200px */
