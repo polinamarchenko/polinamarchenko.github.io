@@ -129,3 +129,22 @@
 
 
 } /* End @media only screen and (max-width: 480px) */
+
+/* Breakpoint for small phones: from 0 to 480px */
+@media only screen and (max-width: 320px) {
+
+  .title-text-black,
+  .title-text-yellow {
+  font-size: 70%;
+  }
+
+  header .btn:link,
+  header .btn:visited {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+} /* End @media only screen and (max-width: 320px) */
