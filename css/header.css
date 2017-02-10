@@ -16,11 +16,11 @@
   }
 
   .hero-text-box {
-  position: absolute;
-  width: 70rem;
-  top: 50%;
-  left:50%;
-  transform: translate(-30%, -10%);
+    position: absolute;
+    width: 114.0rem;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
   }
 
   .title-text-yellow {
@@ -52,10 +52,6 @@
     font-size: 6rem;
     word-spacing: 0.3rem;
     letter-spacing: 0.1rem;
-  }
-
-  h3 {
-    font-size: 2rem;
   }
 
 } /* End @media only screen and (max-width: 1023px) */
@@ -107,13 +103,12 @@
 
 /* Breakpoint for small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+
   .hero-text-box {
-  position: absolute;
-  width: 60rem;
-  top: 50%;
-  left:50%;
-  transform: translate(-30%, -20%);
+    width: 100%;
+    padding: 0 2%;
   }
+
   .title-text-black,
   .title-text-yellow {
   font-size: 80%;
@@ -123,8 +118,8 @@
   header .btn:visited {
     float: left;
     clear: left;
-    padding: 1.5rem 14.0rem;
-    font-size: 2.0rem;
+    text-align: center;
+    width: 90%;
   }
 
 
@@ -134,24 +129,18 @@
 @media only screen and (max-width: 320px) {
 
   .hero-text-box {
-    width: 80%;
-    height: auto;
-    margin: auto;
-  }
+      padding: 0 4% 0 10%;
+    }
 
   .title-text-black,
   .title-text-yellow {
-    font-size: 55%;
+    font-size: 45%;
   }
 
-  header .btn:link,
-  header .btn:visited {
-    text-align: center;
-    font-size: 1.7rem;
+  h3.header {
+    font-size: 1.1rem;
   }
 
-  h3 {
-    font-size: 1.4rem;
-  }
+
 
 } /* End @media only screen and (max-width: 320px) */
