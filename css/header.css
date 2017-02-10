@@ -137,18 +137,19 @@
   position: absolute;
   width: 35rem;
   top: 40%;
-  left: 40%;
+  left: 50%;
   transform: translate(-20%, -10%);
   }
 
   .title-text-black,
   .title-text-yellow {
-  font-size: 50%;
+  font-size: 55%;
   }
 
   header .btn:link,
   header .btn:visited {
-    font-size: 1.6rem;
+    padding: 1.5rem 8.0rem;
+    font-size: 1.7rem;
   }
 
   h3 {
