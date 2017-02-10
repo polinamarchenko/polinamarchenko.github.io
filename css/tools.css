@@ -52,6 +52,18 @@
   }
 } /* End @media only screen and (max-width: 767px) */
 
-/* Breakpoint for small phones: from 0 to 480px */
+/* Breakpoint for small phones: from 321 to 480px */
 @media only screen and (max-width: 480px) {
+  .my-tools li img {
+    height: 4rem;
+    margin: 2rem 4rem;
+  }
 } /* End @media only screen and (max-width: 480px) */
+
+/* Breakpoint for small phones: from 0 to 320px */
+@media only screen and (max-width: 320px) {
+  .my-tools li img {
+    height: 3rem;
+    margin: 1.5rem 3rem;
+  }
+} /* End @media only screen and (max-width: 320px) */
