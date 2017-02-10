@@ -134,21 +134,19 @@
 @media only screen and (max-width: 320px) {
 
   .hero-text-box {
-  position: absolute;
-  width: 35rem;
-  top: 40%;
-  left: 50%;
-  transform: translate(-20%, -10%);
+    width: 80%;
+    height: auto;
+    margin: auto;
   }
 
   .title-text-black,
   .title-text-yellow {
-  font-size: 55%;
+    font-size: 55%;
   }
 
   header .btn:link,
   header .btn:visited {
-    padding: 1.5rem 8.0rem;
+    text-align: center;
     font-size: 1.7rem;
   }
 
