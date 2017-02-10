@@ -133,9 +133,17 @@
 /* Breakpoint for small phones: from 0 to 480px */
 @media only screen and (max-width: 320px) {
 
+  .hero-text-box {
+  position: absolute;
+  width: 40rem;
+  top: 50%;
+  left:50%;
+  transform: translate(-30%, -20%);
+  }
+
   .title-text-black,
   .title-text-yellow {
-  font-size: 70%;
+  font-size: 60%;
   }
 
   header .btn:link,
@@ -144,7 +152,7 @@
   }
 
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
 } /* End @media only screen and (max-width: 320px) */
