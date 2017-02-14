@@ -11,6 +11,40 @@ $(document).ready(function() {
     offset:'100px;'
   });
 
+  /*Mobile Navigation*/
+
+  $('.js-hamburger, .js-main-nav a').click(function() {
+      var icon = $('.js-hamburger i');
+      var nav = $('.js-main-nav');
+
+      if ($(window).width() < 767) {
+        nav.slideToggle(200);
+
+        if (icon.hasClass('fa-bars')) {
+          icon.addClass('fa-times');
+          icon.removeClass('fa-bars');
+        } else {
+          icon.addClass('fa-bars');
+          icon.removeClass('fa-times');
+        }
+      }
+    });
+
+  $(window).resize(function() {
+      var icon = $('.js-hamburger i');
+      var nav = $('.js-main-nav');
+
+      if ($(window).width() > 767) {
+      nav.css("display", "block");
+      icon.addClass('fa-times');
+      icon.removeClass('fa-bars');
+      } else {
+      nav.css("display", "none");
+      icon.addClass('fa-bars');
+      icon.removeClass('fa-times');
+    }
+  });
+
   /*Scrolling on click*/
 
   $('.js--scroll-to-contact').click(function() {
@@ -48,7 +82,7 @@ $(document).ready(function() {
 
 
   $('.js--wp-tools').waypoint(function(direction) {
-      $('.js--wp-tools').addClass('animated fadeInDown');
+      $('.js--wp-tools').addClass('animated fadeIn');
   }, {
     offset:'80%'
 

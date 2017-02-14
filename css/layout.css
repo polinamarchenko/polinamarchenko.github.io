@@ -111,11 +111,6 @@
     padding-bottom: 0.1rem;
   }
 
-  a:hover,
-  a:active {
-    border-bottom: 0.1rem solid white;
-  }
-
 /*Main Navi*/
 .main-nav {
   list-style-type: none;
@@ -152,16 +147,17 @@
 
 /*Mobile Navi*/
 
-.mobile-nav-icon {
+.hamburger {
   float: right;
   cursor: pointer;
   display: none;
   margin-top: 2rem;
 }
 
-.mobile-nav-icon i {
+.hamburger i {
   font-size: 3rem;
   color: #fff;
+  border: 0;
 }
 
 /*Sticky Navi*/
@@ -174,6 +170,7 @@
   background-color: rgba(20, 20, 20, 0.95);
   z-index: 9999;
 }
+
 .sticky .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -202,8 +199,8 @@
 }
 
 .about {
-  padding:40px 40px;
-  font-size: 20px;
+  padding: 4rem 4rem;
+  font-size: 2rem;
 }
 
 .section-projects {
@@ -292,6 +289,70 @@ footer {
       font-size: 3rem;
     }
 
+    /*Main Navi*/
+
+    .main-nav {
+      float: left;
+      margin-left: 2rem;
+      z-index: 9999;
+      display: none;
+    }
+
+    .main-nav li {
+      display: block;
+      padding: 0;
+      margin-left: 0;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+      display: block;
+      border: 0;
+    }
+
+    .main-nav li a:hover,
+    .main-nav li a:active {
+      border: 0;
+    }
+
+    /*Mobile Navi*/
+    .hamburger {
+      display: inline-block;
+    }
+
+    .hamburger i {
+      margin-right: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .hamburger a:hover,
+    .hamburger a:active {
+      border: 0;
+    }
+
+    /*Sticky Navi*/
+
+    .sticky .logo-small {
+      height: 3.5rem;
+      width: auto;
+      float: left;
+      margin: 1.8rem 2rem;
+      display: block;
+    }
+
+    .sticky .main-nav li {
+      padding: 0;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+      border: 0;
+    }
+    .sticky .main-nav li a:hover,
+    .sticky .main-nav li a:active {
+      border: 0;
+    }
+
   } /* End @media only screen and (max-width: 767px) */
 
   /* Breakpoint for small phones: from 0 to 480px */
@@ -309,5 +370,6 @@ footer {
       width: 100%;
       margin: 0 0 2% 0;
     }
+
 
   } /* End @media only screen and (max-width: 480px) */
