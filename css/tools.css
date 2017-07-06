@@ -17,7 +17,8 @@
 
   .my-tools li img {
     height: 5rem;
-    margin-right: 3.5rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
   }
 
   .js--wp-tools {
