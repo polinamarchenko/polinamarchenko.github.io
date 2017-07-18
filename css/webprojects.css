@@ -7,7 +7,7 @@
 
 li.technologies {
   display: inline;
-  float: left;
+  /*float: left;*/
   padding: 1rem 1rem 0 0;
   font-size: 1.4rem;
   font-weight: bold;
@@ -45,10 +45,23 @@ li.technologies {
  }
 
  .row {
-   margin-bottom: 0;
+  margin-bottom: 0;
  }
 
-}  /* End @media screen */
+ .swiper-container {
+  width: 100%;
+  height: 80rem;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffe000;
+  opacity: 1;
+}
+  /* End @media screen */
 
 /* Breakpoint for big tablets to desktop: from 1024 to 1200px */
 @media only screen and (max-width: 1200px) {

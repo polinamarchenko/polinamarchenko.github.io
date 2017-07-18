@@ -45,6 +45,23 @@ $(document).ready(function() {
     }
   });
 
+
+
+    //initialize swiper when document ready
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      slidesPerView: 2,
+      simulateTouch: true,
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      spaceBetween: 30,
+      autoplay: 3000
+    })
+
   /*Scrolling on click*/
 
   $('.js--scroll-to-contact').click(function() {

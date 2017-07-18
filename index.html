@@ -7,9 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/ee7b7f5360.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/swiper.min.css">
     <link rel="stylesheet" href="css/index.css">
+
   </head>
   <body>
+
+    <!-- <script src="https://cdn.smooch.io/smooch.min.js"></script>
+    <script>
+      Smooch.init({appToken: '100tyw843jambghhm5qioniz6'});
+    </script> -->
+
     <header id="header">
       <nav>
         <div class="row">
@@ -124,6 +132,70 @@
             </ul>
               <p class="repo">Github: <a href="https://github.com/polinamarchenko/funderlee">Funderlee</a> </p>
           </div>
+        </div>
+
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <p class="yellow-box-project">NerdyChat - realtime chat app</p>
+                  <p>This is a Node.js responsive chat app powered by Socket.io and Express.js that provides basic functions you'd expect from a chat, such as private messages, an admin system. </p>
+                  <a target="_blank" href="https://chat-app-realtime.herokuapp.com/"><img class="webimg" src="img/nerdychat.png" alt="NerdyChat"></a>
+                  <p>Technologies used:</p>
+                  <ul>
+                    <li class="technologies">Node.js</li>
+                    <li class="technologies">Express.js</li>
+                    <li class="technologies">Socket.io</li>
+                    <li class="technologies">Moustache.js</li>
+                    <li class="technologies">HTML5</li>
+                    <li class="technologies">CSS3</li>
+                    <li class="technologies">jQuery</li>
+                  </ul>
+                    <p class="repo">Github: <a href="https://github.com/polinamarchenko/chat_app">NerdyApp</a> </p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="yellow-box-project">Funderlee - find investors</p>
+                  <p>Work in progress... Funderlee app allows startups find like-minded investors faster and manage the contacts more efficiently. This web app is built with Python and Flask. </p>
+                  <a target="_blank" href="https://chat-app-realtime.herokuapp.com/"><img class="webimg" src="img/funderlee.png" alt="NerdyChat"></a>
+                  <p>Technologies used:</p>
+                  <ul>
+                    <li class="technologies">Python</li>
+                    <li class="technologies">Flask</li>
+                    <li class="technologies">SQLAlchemy</li>
+                    <li class="technologies">Font Awesome</li>
+                    <li class="technologies">Bootstrap</li>
+                    <li class="technologies">CSS3</li>
+                    <li class="technologies">HTML5</li>
+                  </ul>
+                    <p class="repo">Github: <a href="https://github.com/polinamarchenko/funderlee">Funderlee</a> </p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="yellow-box-project">ShortLynk - shorten links</p>
+                  <p>Shortlynk is built with Meteor and React. </p>
+                  <a target="_blank" href="https://shortlynk.herokuapp.com/"><img class="webimg" src="img/shortlynk.gif" alt="ShortLynk"></a>
+                  <p>Technologies used:</p>
+                  <ul>
+                    <li class="technologies">Meteor</li>
+                    <li class="technologies">React</li>
+                    <li class="technologies">MongoDB</li>
+                    <li class="technologies">SCSS</li>
+                    <li class="technologies">HTML5</li>
+                  </ul>
+                    <p class="repo">Github: <a href="https://github.com/polinamarchenko/short_link">ShortLynk</a> </p>
+                </div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
         </div>
       </div>
     </section>
@@ -416,6 +488,7 @@
 
   <script src="vendors/js/jquery-3.1.1.min.js"></script>
   <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="vendors/js/swiper.jquery.min.js"></script>
   <script src="js/script.js"></script>
 
   </body>
