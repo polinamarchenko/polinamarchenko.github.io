@@ -54,12 +54,12 @@ $(document).ready(function() {
       loop: true,
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
-      slidesPerView: 2,
+      slidesPerView: 1,
       simulateTouch: true,
       pagination: '.swiper-pagination',
       paginationClickable: true,
       spaceBetween: 30,
-      autoplay: 3000
+      autoplay: 4000
     })
 
   /*Scrolling on click*/
